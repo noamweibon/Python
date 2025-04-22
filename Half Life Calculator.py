@@ -18,8 +18,8 @@ def remaining():
 fenetre = tk.Tk()
 fenetre.title("Half_life_calcul")
 
-# Créer les champs de saisie  
-label_half_life = tk.Label(fenetre, text="Half-life (heures) :")
+  
+label_half_life = tk.Label(fenetre, text="Half-life (hours) :")
 label_half_life.pack()
 
 entry_half_life = tk.Entry(fenetre)
@@ -34,6 +34,5 @@ entry_last.pack()
 
 button = tk.Button(fenetre, text="Calculer", command=calculer_pourcentage)
 button.pack()
-
-# Lancer la boucle principale  
+  
 fenetre.mainloop()
