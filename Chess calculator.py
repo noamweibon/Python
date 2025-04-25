@@ -2,6 +2,14 @@ import tkinter as tk
 from tkinter import messagebox  
 import os
 
+
+#IMPORTANT 
+#TO ADD
+#STATT
+#OPENNINGS
+#COLORS 
+#BEST ELO
+
 def calculate_and_save():
     try:
         user_name = entry_name.get()
